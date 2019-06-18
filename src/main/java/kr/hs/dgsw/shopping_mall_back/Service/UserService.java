@@ -1,14 +1,12 @@
-package kr.hs.dgsw.shopping_mall_back.Domain;
+package kr.hs.dgsw.shopping_mall_back.Service;
 
-import org.apache.ibatis.annotations.Mapper;
+import kr.hs.dgsw.shopping_mall_back.Domain.User;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-@Mapper
-public interface UserMapper {
-
-    List<User> findAll();
+public interface UserService {
+    List findAll();
     int deleteById(@Param("id") Long id);
     Long add(User user);
     int modify(User user);

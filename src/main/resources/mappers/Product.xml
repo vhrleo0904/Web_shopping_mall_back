@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.hs.dgsw.shopping_mall_back.Domain.ProductMapper">
+
+    <!--<select id="findAll" resultType="HashMap">-->
+        <!---->
+    <!--</select>-->
+
+    <!--<delete id="deleteById" parameterType="Long">-->
+      <!--delete from user where id=#{id}-->
+    <!--</delete>-->
+
+    <!--<insert id="add" parameterType="kr.hs.dgsw.shopping_mall_back.Domain.Product">-->
+        <!--insert into user(account, password, username, home_number, phone_number, zip_code, address, email)-->
+        <!--values(#{account}, #{password}, #{username}, #{home_number}, #{phone_number}, #{zip_code}, #{address}, #{email})-->
+        <!--<selectKey keyProperty="id" resultType="Long">-->
+            <!--select last_insert_id()-->
+        <!--</selectKey>-->
+    <!--</insert>-->
+
+    <!--<update id="modify" parameterType="kr.hs.dgsw.shopping_mall_back.Domain.Product">-->
+        <!--update user set account=#{account}, password=#{password}, username=#{username},-->
+                        <!--home_number=#{home_number}, phone_number=#{phone_number},-->
+                        <!--zip_code=#{zip_code}, address=#{address}, email=#{email}-->
+        <!--where id=#{id}-->
+    <!--</update>-->
+
+    <!--<select id="findById" parameterType="Long" resultType="kr.hs.dgsw.shopping_mall_back.Domain.Product">-->
+        <!--select id, account, username, home_number, phone_number, zip_code, address, email, created, updated-->
+        <!--from user-->
+        <!--where id=#{id}-->
+    <!--</select>-->
+    
+</mapper>
